@@ -66,4 +66,4 @@ Welcome to my QA portfolio! I created this repository to share my manual softwar
 
 
 * **LinkedIn:** [https://www.linkedin.com/in/gabriela-nikolova1/]
-* **Email:** [g.georrgieva@gmail.c
+* **Email:** [g.georrgieva@gmail.com]
