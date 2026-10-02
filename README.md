@@ -24,13 +24,11 @@ Welcome to my QA portfolio! I created this repository to share my manual softwar
   * **Description:** Manual testing for a multi-role web platform, covering Client, Contractor, and Admin accounts.  
   * **Artifacts:** Multi-role test execution checklists, user story analysis, and Jira defect tracking.
 
-* 📁 **[Future Project Name]** *(Placeholder for upcoming project)*
-
 ---
 
 ### 02. AI-Assisted QA & Vibe-Coded Scenarios
 
-* 📁 [**AI Prompting & Test Design**](./01-Manual-Testing/AI-Test-Design/) *(Optional subfolder for prompt templates)*
+* 📁 [**AI Prompting & Test Design**](./01-Manual-Testing/AI-Test-Design/) *(subfolder for prompt templates)*
   * **Description:** Using AI (Claude, ChatGPT, Gemini) to vibe-code manual test suites, map out complex edge cases, and generate automated test data.
   * **MCP Integration:** *(In Progress)* Connecting local MCP servers so AI tools can read product requirements and Jira tickets directly during test design.
 
