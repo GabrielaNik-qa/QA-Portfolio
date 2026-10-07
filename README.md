@@ -28,7 +28,7 @@ Welcome to my QA portfolio! I created this repository to share my manual softwar
 
 ### 02. AI-Assisted QA & Vibe-Coded Scenarios
 
-* 📁 [**AI Prompting & Test Design**](./01-Manual-Testing/AI-Test-Design/) *(subfolder for prompt templates)*
+* 📁 [**AI Prompting & Test Design**](./02-AI-Assisted-QA/) *(subfolder for prompt templates)*
   * **Description:** Using AI (Claude, ChatGPT, Gemini) to vibe-code manual test suites, map out complex edge cases, and generate automated test data.
   * **MCP Integration:** *(In Progress)* Connecting local MCP servers so AI tools can read product requirements and Jira tickets directly during test design.
 
@@ -63,5 +63,5 @@ Welcome to my QA portfolio! I created this repository to share my manual softwar
 ## 📬 Connect With Me
 
 
-* **LinkedIn:** [https://www.linkedin.com/in/gabriela-nikolova1/]
-* **Email:** [g.georrgieva@gmail.com]
+* **LinkedIn:** [Gabriela Nikolova](https://www.linkedin.com/in/gabriela-nikolova1/)
+* **Email:** [g.georgieva@gmail.com](mailto:g.georgieva@gmail.com)
