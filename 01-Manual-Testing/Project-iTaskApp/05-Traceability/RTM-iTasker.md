@@ -1,16 +1,16 @@
 # Requirements Traceability Matrix: iTasker
 
-**Source:** User Story iTaskApp Feb/26, section 2.2 | **Cases:** 134 (all mapped)
+**Source:** User Story iTaskApp Feb/26, section 2.2 | **Cases:** 134 
 
-**Coverage:** ✅ covered | ⚠️ partially covered or open question | ❌ not covered
-**Execution:** ⬜ not run | ✅ all passed | ❌ failures | ⚠️ blocked
+**Coverage:** ✅ covered | ❌ not covered
+**Execution:** | ✅ all passed | ❌ failures | ⚠️ blocked
 
 | Section | Requirement | Key acceptance criteria | Test cases | Coverage | Exec |
 |---------|-------------|-------------------------|------------|:--------:|:----:|
 | 2.2.1 | iTasker registration | Same fields as Client plus Main Service Category and Business Name, email with password | TC-IT-01-001 to 009 | ✅ | ⬜ |
 | 2.2.2 | iTasker sign in and onboarding | First login requires the profile, later logins skip it, steps 1-4, Stripe, My Services | TC-IT-01-010 to 020, TC-IT-02-001 to 004 | ✅ | ⬜ |
 | 2.2.3 | Team creation (flow) | Default team exists, +Add, 5 steps, name, services, workers, working area, completion | TC-IT-03-004, TC-IT-03-007 to 018 | ✅ | ⬜ |
-| 2.2.4 | Applying for tasks | Taskboard shows only offered services, Details, change day and hour, success message | TC-IT-04-001 to 010 | ⚠️ | ⬜ |
+| 2.2.4 | Applying for tasks | Taskboard shows only offered services, Details, change day and hour, success message | TC-IT-04-001 to 010 | ❌ | ⬜ |
 | 2.2.5 | Assign a task to own team | Assign a Team, inactive without an approved team | TC-IT-04-011 to 013 | ✅ | ⬜ |
 | 2.2.6 | Change day/time of an accepted task | Change Appointment from Active Tasks, client notified | TC-IT-04-014 to 016 | ✅ | ⬜ |
 | 2.2.7 | Change status of an accepted task | On Route, On Site, On Materials Pick up, Completed, client notified | TC-IT-04-017, 018 | ✅ | ⬜ |
@@ -24,18 +24,11 @@
 | 2.2.15 | Task details linked to invoice | Task information, See Details, See Invoice Details, Activity | TC-IT-05-017 to 024 | ✅ | ⬜ |
 | 2.2.16 | iTasker notifications | Bell, unread counter, mark as read, view one by one | TC-IT-06-001 to 005 | ✅ | ⬜ |
 | 2.2.17.1 | Profile | Edit personal data, password, address, category, read-only business info | TC-IT-07-001 to 008 | ✅ | ⬜ |
-| 2.2.17.2 | Preferences | 9 notification groups with their toggles | TC-IT-07-009 to 017 | ⚠️ | ⬜ |
+| 2.2.17.2 | Preferences | 9 notification groups with their toggles | TC-IT-07-009 to 017 | ❌ | ⬜ |
 | 2.2.17.3 | Messages | Chat between iTasker and Client (described in 2.2.8) | TC-IT-06-007, 009, 010 | ✅ | ⬜ |
 | 2.2.17.4 | Log out | Redirect to Home page without a session | TC-IT-07-018 | ✅ | ⬜ |
 
 ## Summary
-| Requirements | ✅ Covered | ⚠️ Partial | ❌ Not covered |
-|:------------:|:---------:|:----------:|:--------------:|
-| 20 | 18 | 2 | 0 |
-
-## Coverage gaps and notes
-- **2.2.4:** the story does not say what happens without accepting the Terms and Conditions (open question 5).
-- **2.2.17.2:** only the toggles are tested. Delivery of the 9 notification groups is not covered. The triggers are listed in TS-IT-07 for a future suite.
-- **2.2.3:** open question 6 about solo iTaskers and the one-worker minimum.
-- **2.2.13:** the Approved, Failed and Refund invoice statuses are filtered (2.2.14) but not produced in the invoice flow tests.
-- **2.2.17:** the menu contents differ between sections 2.2.17 and 2.2.8 (open question 10).
+| Requirements | ✅ Covered | ❌ Not covered |
+|:------------:|:---------:|:--------------:|
+| 20 | 18 | 2 | 

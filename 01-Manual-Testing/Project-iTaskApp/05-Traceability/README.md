@@ -15,8 +15,5 @@ Each requirement section of the user story is mapped to the acceptance criteria 
 - **Requirement:** section number from the [user story index](../01-Documentation/user-story-index.md).
 - **Acceptance criteria:** the key rules stated in that section.
 - **Test cases:** the IDs that verify them.
-- **Coverage:** ✅ covered, ⚠️ partially covered (a gap is noted), ❌ not covered.
+- **Coverage:** ✅ covered, ⚠️ partially covered, ❌ not covered.
 - **Execution:** the status of the linked cases after a run.
-
-## Coverage gaps
-Gaps found while mapping are listed at the end of each matrix. Open questions that explain most of them are in [01-Documentation](../01-Documentation/).
