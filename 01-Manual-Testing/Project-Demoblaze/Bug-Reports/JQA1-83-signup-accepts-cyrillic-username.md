@@ -8,7 +8,7 @@
 | **Label** | Signup |
 | **Reported** | 19 Apr 2026, Gabriela Nikolova |
 | **Environment** | https://www.demoblaze.com/ , browser and OS: `Safari,Windows` |
-| **Requirement** | ⚠️ The FSD does not define username rules. The expected result is an assumption. Test case MA_RGR_029 |
+| **Requirement** | FSD My Account. The expected result is an assumption. Test case MA_RGR_029 |
 
 ## Steps to Reproduce
 1. Open https://www.demoblaze.com/

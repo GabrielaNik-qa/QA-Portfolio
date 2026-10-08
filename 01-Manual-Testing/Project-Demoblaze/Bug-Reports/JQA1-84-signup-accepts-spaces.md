@@ -8,7 +8,7 @@
 | **Label** | Signup |
 | **Reported** | 19 Apr 2026, Gabriela Nikolova |
 | **Environment** | https://www.demoblaze.com/ , browser and OS: `Safari,Windows` |
-| **Requirement** | FSD MA.RGR 2.1 for the password. ⚠️ Username rules are not in the FSD (assumption). Test case MA_RGR_026, MA_RGR_035 |
+| **Requirement** | FSD MA.RGR 2.1 for the password. Test case MA_RGR_026, MA_RGR_035 |
 
 ## Steps to Reproduce
 1. Open https://www.demoblaze.com/
