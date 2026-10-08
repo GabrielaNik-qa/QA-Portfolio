@@ -3,12 +3,11 @@
 | Field | Details |
 |-------|---------|
 | **ID** | DOC-002 |
-| **Type** | Requirement defect (found in a requirements review, not in the application) |
+| **Type** | Requirement defect |
 | **Severity / Priority** | Minor / Low |
-| **Status** | Open, waiting for the product owner |
+| **Status** | Open |
 | **Requirement** | User Story 2.3.3 (Manage menu) |
-| **Related test cases** | All Admin suites (traceability) |
-| **Open question** | 7 |
+| **Related test cases** | All Admin suites |
 | **Reported by** | Gabriela Nikolova |
 
 ## Description
@@ -19,9 +18,6 @@ One consistent numbering across the document.
 
 ## Impact on testing
 Traceability links can point to the wrong requirement, and review comments can be misread.
-
-## Workaround used
-The traceability matrices use the section numbers of the body.
 
 ## Suggested resolution
 Update the table of contents so that it matches the body, or the reverse.

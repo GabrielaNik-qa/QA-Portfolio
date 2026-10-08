@@ -3,12 +3,11 @@
 | Field | Details |
 |-------|---------|
 | **ID** | DOC-004 |
-| **Type** | Requirement defect (found in a requirements review, not in the application) |
+| **Type** | Requirement defect |
 | **Severity / Priority** | Minor / Medium |
-| **Status** | Open, waiting for the product owner |
+| **Status** | Open |
 | **Requirement** | User Story 2.2.8, 2.2.17 and 2.2.17.3 |
 | **Related test cases** | TC-IT-07-001, TC-IT-06-007 |
-| **Open question** | 10 |
 | **Reported by** | Gabriela Nikolova |
 
 ## Description

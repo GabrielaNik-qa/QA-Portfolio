@@ -21,22 +21,3 @@
 | TS-AD-01 | | | | | |
 | TS-NB-01 | | | | | |
 | **Total** | | | | | |
-
-## Results by Platform
-| Platform | Pass | Fail | Blocked |
-|----------|:----:|:----:|:-------:|
-| Chrome | | | |
-| Firefox | | | |
-| Edge | | | |
-| Mobile | | | |
-
-## Defects
-| Bug ID | Title | Severity | Test case | Status |
-|--------|-------|----------|-----------|--------|
-| | | | | |
-
-## Risks and Blockers
--
-
-## Conclusion
-Summary of product quality and release recommendation.

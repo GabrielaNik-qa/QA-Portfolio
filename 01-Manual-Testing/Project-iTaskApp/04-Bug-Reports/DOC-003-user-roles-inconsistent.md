@@ -3,12 +3,11 @@
 | Field | Details |
 |-------|---------|
 | **ID** | DOC-003 |
-| **Type** | Requirement defect (found in a requirements review, not in the application) |
+| **Type** | Requirement defect |
 | **Severity / Priority** | Major / Medium |
-| **Status** | Open, waiting for the product owner |
+| **Status** | Open |
 | **Requirement** | User Story 2.3.3.1 (Users) and 2.3.3.2 (Workers) |
 | **Related test cases** | TC-AD-02-006 |
-| **Open question** | 8 |
 | **Reported by** | Gabriela Nikolova |
 
 ## Description

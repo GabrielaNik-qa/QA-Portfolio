@@ -3,12 +3,11 @@
 | Field | Details |
 |-------|---------|
 | **ID** | DOC-005 |
-| **Type** | Requirement defect (found in a requirements review, not in the application) |
+| **Type** | Requirement defect |
 | **Severity / Priority** | Major / High |
-| **Status** | Open, waiting for the product owner |
+| **Status** | Open |
 | **Requirement** | User Story 2.2.3 and 2.3.3.3 (Teams) |
 | **Related test cases** | TC-IT-03-015, TC-AD-03-017, TC-IT-04-013 |
-| **Open question** | 6 |
 | **Reported by** | Gabriela Nikolova |
 
 ## Description

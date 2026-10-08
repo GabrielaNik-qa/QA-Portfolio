@@ -3,12 +3,11 @@
 | Field | Details |
 |-------|---------|
 | **ID** | DOC-001 |
-| **Type** | Requirement defect (found in a requirements review, not in the application) |
+| **Type** | Requirement defect  |
 | **Severity / Priority** | Trivial / Low |
 | **Status** | Open, waiting for the product owner |
-| **Requirement** | User Story 2.3.3.9 (Shortcuts) and Neighbourhood NB-4 |
+| **Requirement** | User Story 2.3.3.9 and Neighbourhood NB-4 |
 | **Related test cases** | TC-AD-06-020, TC-NB-04-017 |
-| **Open question** | 9 |
 | **Reported by** | Gabriela Nikolova |
 
 ## Description
