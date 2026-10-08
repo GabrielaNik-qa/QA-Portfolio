@@ -24,6 +24,10 @@ Welcome to my QA portfolio! I created this repository to share my manual softwar
   * **Description:** Manual testing for a multi-role web platform, covering Client, Contractor, and Admin accounts.  
   * **Artifacts:** Multi-role test execution checklists, user story analysis, and Jira defect tracking.
 
+* 📁 [**Demoblaze (practice project)**](./01-Manual-Testing/Project-Demoblaze/)
+  * **Description:** Functional and UI testing of the Sign up and Log in features of a public demo shop.
+  * **Artifacts:** 5 Jira bug reports with steps to reproduce, expected and actual results, and severity analysis.
+
 ---
 
 ### 02. AI-Assisted QA & Vibe-Coded Scenarios
