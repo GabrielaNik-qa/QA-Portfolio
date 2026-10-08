@@ -43,23 +43,23 @@ Verify that a Client can register, sign in, recover a password and log out, and 
 | TC-CL-01-004 | First name accepts 2-255 characters (BVA) | Open the form and enter:<br>- Min: `Ga` (2)<br>- Max: `a` x 255<br>- Invalid: `G` (1)<br>- Invalid: `a` x 256 *(added boundary)* | 2 and 255 characters are accepted. 1 and 256 characters are rejected with a validation message | High | ⬜⬜⬜⬜ |
 | TC-CL-01-005 | Last name accepts 2-255 characters (BVA) | - Min: `Ni`<br>- Max: `a` x 255<br>- Invalid: `A`<br>- Invalid: `a` x 256 *(added boundary)* | 2 and 255 characters are accepted. 1 and 256 characters are rejected with a validation message | High | ⬜⬜⬜⬜ |
 | TC-CL-01-006 | Email validates format, "@" symbol, real domain, 5-255 characters (EP) | - Valid: `{CLIENT_EMAIL}`<br>- Valid: an email in Cyrillic letters *(added, the story allows all supported languages)*<br>- Invalid: `test`, `test@`, `test@com` | Valid emails are accepted. Invalid formats are rejected with a validation message | High | ⬜⬜⬜⬜ |
-| TC-CL-01-007 | Phone requires "+1" prefix, max 15 digits (BVA) | - Valid: `+1-234-567-8901` (11 digits)<br>- Valid boundary: 15 digits<br>- Invalid: 16 digits<br>- Invalid: `234-567-8901` (no +1)<br>⚠️ Confirm whether the "1" counts toward the 15 (open question 2) | Valid values are accepted. 16 digits and a missing +1 are rejected | Med | ⬜⬜⬜⬜ |
-| TC-CL-01-008 | Zip/Postal code shows dropdown suggestions while typing | 1. Start typing a zip/postal code<br>2. Select a suggestion<br>*On mobile, check rendering on a small screen* | Suggestions appear while typing. Selecting one fills the field. Dropdown renders correctly on mobile | Med | ⬜⬜⬜⬜ |
+| TC-CL-01-007 | Phone requires "+1" prefix, max 15 digits (BVA) | - Valid: `+1-234-567-8901` (11 digits)<br>- Valid boundary: 15 digits<br>- Invalid: 16 digits<br>- Invalid: `234-567-8901` (no +1)<br> | Valid values are accepted. 16 digits and a missing +1 are rejected | Med | ⬜⬜⬜⬜ |
+| TC-CL-01-008 | Zip/Postal code shows dropdown suggestions while typing | 1. Start typing a zip/postal code<br>2. Select a suggestion<br> | Suggestions appear while typing. Selecting one fills the field. Dropdown renders correctly on mobile | Med | ⬜⬜⬜⬜ |
 | TC-CL-01-009 | All fields are mandatory | 1. Fill all fields except one<br>2. Click "Create Account"<br>3. Repeat, leaving a different field empty each time | Form is not submitted. A message points to the empty field (checked for every field) | High | ⬜⬜⬜⬜ |
 
 ## SC-CL-01.3 Sign up: submission and confirmation email
 
 | ID | Test Case | Steps / Test Data | Expected Result | Pri | Ch · FF · Ed · Mob |
 |----|-----------|-------------------|-----------------|-----|:------------------:|
-| TC-CL-01-010 | "Create Account" submits the form when all fields are valid | First name: `Anna`, Last name: `Client`, Email: `{CLIENT_EMAIL}`, Phone: `{PHONE}`, valid zip<br>1. Fill the form<br>2. Click "Create Account" | Account is created and the user gets a success confirmation or is redirected. No further action is needed from the Client | High | ⬜⬜⬜⬜ |
-| TC-CL-01-011 | Confirmation email with login credentials is sent | **Pre:** TC-CL-01-010 passed<br>1. Check the inbox of `{CLIENT_EMAIL}` | Email with the email address and password for the system arrives *(by design per the story, see open question 4)* | High | ⬜⬜⬜⬜ |
+| TC-CL-01-010 | "Create Account" submits the form when all fields are valid | First name: `Anna`, Last name: `Client`, Email: `{CLIENT_EMAIL}`, Phone: `{PHONE}`, valid zip<br>1. Fill the form<br>2. Click "Create Account" | Account is created and the user gets a success confirmation or is redirected.  | High | ⬜⬜⬜⬜ |
+| TC-CL-01-011 | Confirmation email with login credentials is sent | **Pre:** TC-CL-01-010 passed<br>1. Check the inbox of `{CLIENT_EMAIL}` | Email with the email address and password for the system arrives  | High | ⬜⬜⬜⬜ |
 | TC-CL-01-012 | Confirmation email is displayed as in the user story | 1. Open the email from TC-CL-01-011<br>2. Compare it with the design in the document | Layout, text, logo and links match the design | Med | ⬜⬜⬜⬜ |
 
 ## SC-CL-01.4 Sign in
 
-| ID | Test Case | Steps / Test Data | Expected Result | Pri | Ch · FF · Ed · Mob |
-|----|-----------|-------------------|-----------------|-----|:------------------:|
-| TC-CL-01-013 | "Sign in" button is available in the header | 1. Open the home page | "Sign in" button is visible in the header menu | High | ⬜⬜⬜⬜ |
+| ID | Test Case | Steps / Test Data | Expected Result | Pri | Ch · FF · Ed · Mob | 
+|----|-----------|-------------------|-----------------|-----|:-------------------:|
+| TC-CL-01-013 | "Sign in" button is available in the header | 1. Open the home page | "Sign in" button is visible in the header menu | High | ⬜⬜⬜⬜ | 
 | TC-CL-01-014 | Email field accepts min 5 characters and requires "@" | - Valid: `{CLIENT_EMAIL}`<br>- Invalid: `ab@c` (4 chars)<br>- Invalid: `testgmail.com` (no @) | Valid email is accepted. Invalid inputs show a validation message | High | ⬜⬜⬜⬜ |
 | TC-CL-01-015 | Password requires min 8 characters (BVA) | - Valid: `Test1234` (8)<br>- Invalid: `Test12` (6)<br>- Invalid: 7 characters *(added boundary)* | 8 characters are accepted. Fewer than 8 are rejected | High | ⬜⬜⬜⬜ |
 | TC-CL-01-016 | "Continue" logs in and redirects to the Dashboard | 1. Enter `{CLIENT_EMAIL}` and the valid password<br>2. Click "Continue" | User is logged in and the Dashboard is displayed | High | ⬜⬜⬜⬜ |
@@ -76,4 +76,4 @@ Verify that a Client can register, sign in, recover a password and log out, and 
 
 | ID | Test Case | Steps / Test Data | Expected Result | Pri | Ch · FF · Ed · Mob |
 |----|-----------|-------------------|-----------------|-----|:------------------:|
-| TC-CL-01-020 | "Log out" ends the session and redirects to the Home page | **Pre:** logged in<br>1. Open the username dropdown<br>2. Click "Log out"<br>3. Click the browser Back button *(added check)* | User is redirected to the Home page without a logged-in profile. Back does not restore the session | High | ⬜⬜⬜⬜ |
+| TC-CL-01-020 | "Log out" ends the session and redirects to the Home page | **Pre:** logged in<br>1. Open the username dropdown<br>2. Click "Log out"<br>3. Click the browser Back button | User is redirected to the Home page without a logged-in profile. Back does not restore the session | High | ⬜⬜⬜⬜ |

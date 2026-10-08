@@ -59,7 +59,7 @@ Verify that notifications reach the Client through the channels enabled in Prefe
 
 ## SC-CL-05.3 Task status change notifications
 
-**Trigger:** iTasker changes the status of an accepted task. The SMS cases use a change of the agreed time, as the user story defines for this group.
+**Trigger:** iTasker changes the status of an accepted task. 
 
 | ID | Test Case | Steps | Expected Result | Pri | Ch · FF · Ed · Mob |
 |----|-----------|-------|-----------------|-----|:------------------:|

@@ -37,7 +37,7 @@ Verify the Members tab, the right sidebar calendar, and the management of Neighb
 | TC-NB-04-004 | "Copy link to profile" copies the member's profile link | 1. Click the option<br>2. Paste it in the browser | The member's profile opens | Low | ⬜⬜⬜⬜ |
 | TC-NB-04-005 | "Block" blocks the selected member | 1. Block a test member | The member no longer has access to the group | High | ⬜⬜⬜⬜ |
 | TC-NB-04-006 | "Delete membership request" removes the member's request | 1. Delete a pending request | The request is removed from the list | Med | ⬜⬜⬜⬜ |
-| TC-NB-04-026 | The member status reflects the membership state | 1. Check the status of a pending membership request<br>2. Check the status of an active member | The statuses differ and match each member's state<br>⚠️ The document names the field but does not list its values (open question 13) | Med | ⬜⬜⬜⬜ |
+| TC-NB-04-026 | The member status reflects the membership state | 1. Check the status of a pending membership request<br>2. Check the status of an active member | The statuses differ and match each member's state<br> | Med | ⬜⬜⬜⬜ |
 
 ## SC-NB-04.2 Right sidebar calendar
 
@@ -58,7 +58,7 @@ Verify the Members tab, the right sidebar calendar, and the management of Neighb
 | TC-NB-04-014 | "View" opens the shortcut details | 1. Click "View" | Page shows Photo, Title, Category, Status, Link, Description with correct data | Med | ⬜⬜⬜⬜ |
 | TC-NB-04-015 | "Edit" opens an editable form and all fields can be modified | 1. Click "Edit"<br>2. Update Title and Link | All fields are editable | High | ⬜⬜⬜⬜ |
 | TC-NB-04-016 | "Save" saves all changes, and nothing is saved without it | 1. Change a field and click "Save"<br>2. Change another, navigate away without saving | Saved change persists. Unsaved change is not kept | High | ⬜⬜⬜⬜ |
-| TC-NB-04-017 | "Delete" shows a confirmation | 1. Click "Delete" on a shortcut | Message: Do you want to delete a shortcut "`<shortcut title>`"? with Yes and No<br>⚠️ The document's sample shows "Undefined" as the title (open question 9) | Med | ⬜⬜⬜⬜ |
+| TC-NB-04-017 | "Delete" shows a confirmation | 1. Click "Delete" on a shortcut | Message: Do you want to delete a shortcut "`<shortcut title>`"? with Yes and No<br> | Med | ⬜⬜⬜⬜ |
 | TC-NB-04-018 | "Yes" deletes the shortcut | 1. Click "Yes" | Shortcut no longer appears in the list | High | ⬜⬜⬜⬜ |
 | TC-NB-04-019 | "No" closes the dialog and the shortcut is not deleted | 1. Click "No" | Dialog closes. Shortcut remains in the list | High | ⬜⬜⬜⬜ |
 | TC-NB-04-020 | "+Add" opens the Add Shortcut form with the required fields | 1. Click "+Add" | Required: Photo (max 30MB), Title, Link | High | ⬜⬜⬜⬜ |

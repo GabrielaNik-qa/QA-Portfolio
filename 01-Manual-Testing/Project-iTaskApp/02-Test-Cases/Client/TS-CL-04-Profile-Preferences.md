@@ -19,9 +19,7 @@ Verify that a Client can edit personal data, change the password, and configure 
 | ID | Scenario | Story section | TCs |
 |----|----------|:-------------:|-----|
 | SC-CL-04.1 | Edit profile | 2.1.6.1 | 001-007 |
-| SC-CL-04.2 | Notification preferences (UI and persistence) | 2.1.6.2 | 008-016 |
-
-*Whether notifications are actually delivered is covered in [TS-CL-05](./TS-CL-05-Notifications.md).*
+| SC-CL-04.2 | Notification preferences | 2.1.6.2 | 008-016 |
 
 ---
 
@@ -37,7 +35,7 @@ Verify that a Client can edit personal data, change the password, and configure 
 | TC-CL-04-006 | Address and Zip/Postal code are editable | 1. Edit both fields<br>2. Save | Values are accepted and saved | Med | ⬜⬜⬜⬜ |
 | TC-CL-04-007 | Edit Profile window meets the visual requirements | 1. Compare the window with the user story | Layout and elements match | Low | ⬜⬜⬜⬜ |
 
-## SC-CL-04.2 Notification preferences (UI and persistence)
+## SC-CL-04.2 Notification preferences 
 
 | ID | Test Case | Steps / Test Data | Expected Result | Pri | Ch · FF · Ed · Mob |
 |----|-----------|-------------------|-----------------|-----|:------------------:|

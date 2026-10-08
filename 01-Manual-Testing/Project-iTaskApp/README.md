@@ -21,11 +21,11 @@ iTaskApp is a multi-role web platform where **Clients** post tasks, **iTaskers**
 | **Screenshots** | [01-Documentation/screenshots](./01-Documentation/screenshots/) |
 
 ## 🎯 Scope
-**In scope:** registration and sign-in, task lifecycle, teams, invoicing flow, notifications, chat, admin management, Neighbourhood groups, events and members.
-**Out of scope:** performance, security testing, automation.
+- **In scope:** registration and sign-in, task lifecycle, teams, invoicing flow, notifications, chat, admin management, Neighbourhood groups, events and members.
+- **Out of scope:** performance, security testing, automation.
 
 ## 🔄 Agile Approach
-- User story sections are reviewed for testability, and unclear points become open questions for the product owner.
+- User story sections are reviewed for testability
 - Every requirement is mapped to test cases that verify its acceptance criteria ([traceability](./05-Traceability/)).
 - Smoke tests run on every build, new and changed stories are tested next, and regression runs at the end of each sprint.
 - Details are in the [test plan](./01-Documentation/test-plan.md).

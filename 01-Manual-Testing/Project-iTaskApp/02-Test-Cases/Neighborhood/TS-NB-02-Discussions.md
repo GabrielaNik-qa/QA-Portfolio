@@ -36,4 +36,4 @@ Verify that an Admin can create posts in a group, with photos, links and the Pri
 | TC-NB-02-007 | "Private Post" shows the post only to group members | 1. Publish a post with the toggle ON<br>2. Log in as a non-member | The post is not visible to the non-member. Members see it | High | ⬜⬜⬜⬜ |
 | TC-NB-02-008 | "Hidden Post" shows the post only to the Admin | 1. Publish a post with the toggle ON<br>2. Log in as a member and as a Client | The post is visible only to the Admin | High | ⬜⬜⬜⬜ |
 | TC-NB-02-009 | "Post" publishes the post in the group | 1. Click "Post" | The post appears in the Discussions tab | High | ⬜⬜⬜⬜ |
-| TC-NB-02-010 | A post cannot be submitted without text | 1. Leave the text empty<br>2. Click "Post" | ⚠️ The document does not say text is mandatory (open question 11). Expected until confirmed: post is not published | Med | ⬜⬜⬜⬜ |
+| TC-NB-02-010 | A post cannot be submitted without text | 1. Leave the text empty<br>2. Click "Post" |  post is not published | Med | ⬜⬜⬜⬜ |

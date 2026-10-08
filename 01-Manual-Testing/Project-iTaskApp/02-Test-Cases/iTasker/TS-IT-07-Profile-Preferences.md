@@ -22,28 +22,13 @@ Verify profile editing, password change, notification preferences, and log out.
 | SC-IT-07.2 | Notification preferences | 2.2.17.2 | 009-017 |
 | SC-IT-07.3 | Log out | 2.2.17.4 | 018 |
 
-## Notification triggers (for future delivery tests)
-Delivery of these notifications is not covered yet. The triggers below come from the story.
-
-| Preference group | Trigger | Channels |
-|------------------|---------|----------|
-| Chat messages receiving | A new chat message arrives | Email, Push, Sound |
-| New Suitable Tasks Appeared | A new suitable task is created | Email, Push, Sound |
-| New Requested by Client Tasks | A client requests a new task | Email, Push, Sound |
-| Task Hired | A client hires the iTasker for a task | Push, Sound |
-| Task Canceled | A client cancels a task the iTasker was assigned to | Push, Sound |
-| Task Rated | A client rates a task | Push, Sound |
-| Follow up task confirmed | A client accepts a follow up task | Push, Sound |
-| Follow up task canceled | A client cancels a follow up task | Push, Sound |
-| Finances | A client approves or rejects an invoice | Email, Push, Sound |
-
 ---
 
 ## SC-IT-07.1 Profile
 
 | ID | Test Case | Steps / Test Data | Expected Result | Pri | Ch · FF · Ed · Mob |
 |----|-----------|-------------------|-----------------|-----|:------------------:|
-| TC-IT-07-001 | Username dropdown shows the profile options | 1. Click the username | Options: Profile, Preferences, Log out<br>⚠️ Sections 2.2.8 and 2.2.17.3 also mention Messages (open question 10) | High | ⬜⬜⬜⬜ |
+| TC-IT-07-001 | Username dropdown shows the profile options | 1. Click the username | Options: Profile, Preferences, Log out<br> | High | ⬜⬜⬜⬜ |
 | TC-IT-07-002 | First name, Last name, Email, Phone are editable | Update the 4 fields with test values | Fields accept the new values | High | ⬜⬜⬜⬜ |
 | TC-IT-07-003 | "Save changes" saves personal info | 1. Save<br>2. Log out and log in | New values are persisted | High | ⬜⬜⬜⬜ |
 | TC-IT-07-004 | New password, New password (confirm), Current password fields are available | 1. Open the password section | All 3 fields are shown | Med | ⬜⬜⬜⬜ |

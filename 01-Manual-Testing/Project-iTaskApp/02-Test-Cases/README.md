@@ -34,7 +34,6 @@
 | Neighbourhood | [TS-NB-04](./Neighbourhood/TS-NB-04-Members-Calendar-Shortcuts.md) | Members, Calendar & Shortcuts | 26 |
 | | | **Total** | **545** |
 
-**Smoke and regression:** [Smoke-and-Regression-Suites.md](./Smoke-and-Regression-Suites.md) lists the cases to run on every build and at the end of each sprint.
 
 ## 🧭 Conventions
 - **ID format:** `TC-<role>-<suite>-<number>`, for example `TC-IT-03-014`. 
@@ -51,5 +50,3 @@
 | `{PHONE}` | `+1-234-567-8901` |
 | `{TEST_CARD}` | PAN `4242 4242 4242 4242`, any future expiry, CVC `123` |
 | `{FILE_OVER_30MB}` | any file larger than 30MB |
-
-No real personal data is stored in this repository.

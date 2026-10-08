@@ -43,5 +43,3 @@ Verify the in-app notification bell and the chat between iTasker and Client.
 | TC-IT-06-008 | Chat displays title and participant names | 1. Open a chat | Title and participant names are shown | Med | ⬜⬜⬜⬜ |
 | TC-IT-06-009 | Text input and "Send" are functional | Send: `Hello, I am on my way to complete your task.` | Message is sent and shown in the conversation | High | ⬜⬜⬜⬜ |
 | TC-IT-06-010 | "New Chat" allows selecting participants | 1. Click "New Chat" | Participants can be selected | Med | ⬜⬜⬜⬜ |
-
-> The three "Messages" cases in the profile section of the source sheet repeat TC-IT-06-007, 009 and 010, so they are merged.

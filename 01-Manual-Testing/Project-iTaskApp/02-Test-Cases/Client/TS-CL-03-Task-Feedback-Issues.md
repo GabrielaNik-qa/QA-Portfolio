@@ -43,6 +43,6 @@ Verify that a Client can rate completed tasks and report problems with a task.
 | TC-CL-03-008 | Task Details page meets the visual requirements | 1. Compare the page with the user story | Layout and elements match | Med | ⬜⬜⬜⬜ |
 | TC-CL-03-009 | Button opens a modal with description field and photo upload | 1. Click "Report a Problem" | Modal opens with a description field and a photo upload | High | ⬜⬜⬜⬜ |
 | TC-CL-03-010 | Description field accepts text | 1. Enter: `The iTasker was late for the appointment.` | Text is accepted | High | ⬜⬜⬜⬜ |
-| TC-CL-03-011 | Behaviour when submitting with an empty description | 1. Leave the description empty<br>2. Click "Submit" | ⚠️ The story does not say the description is mandatory (open question 1). Expected until confirmed: validation message and no report sent | High | ⬜⬜⬜⬜ |
+| TC-CL-03-011 | Behaviour when submitting with an empty description | 1. Leave the description empty<br>2. Click "Submit" | Validation message and no report sent | High | ⬜⬜⬜⬜ |
 | TC-CL-03-012 | Photo upload max 30MB | 1. Upload `{FILE_OVER_30MB}`<br>2. Upload a valid photo *(added)* | File over 30MB is rejected with a message. Valid photo is accepted | Med | ⬜⬜⬜⬜ |
 | TC-CL-03-013 | "Submit" sends the report and shows a confirmation | 1. Enter: `The iTasker did not complete the full job as agreed.`<br>2. Attach 1 photo<br>3. Click "Submit" | Report is sent, the confirmation message is displayed, and the report reaches the Admin | High | ⬜⬜⬜⬜ |

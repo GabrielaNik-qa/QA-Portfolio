@@ -13,7 +13,7 @@ Verify team creation (5-step flow), editing, and removal of teams and team membe
 
 ## Preconditions
 - iTasker is logged in with a completed profile
-- At least one worker exists (Workers are approved by the Admin before they can be assigned to tasks)
+- At least one worker exists
 
 ## Scenarios
 
@@ -63,7 +63,7 @@ Verify team creation (5-step flow), editing, and removal of teams and team membe
 |----|-----------|-------------------|-----------------|-----|:------------------:|
 | TC-IT-03-013 | Workers selection page is displayed | 1. Continue to Step 3 | Page is displayed | High | ⬜⬜⬜⬜ |
 | TC-IT-03-014 | iTasker can add one or more workers | Select available workers | Selected workers are shown | High | ⬜⬜⬜⬜ |
-| TC-IT-03-015 | A team cannot be created without workers | Continue without selecting any worker | Continue is blocked with a message, because each team needs at least one worker *(see open question 6)* | High | ⬜⬜⬜⬜ |
+| TC-IT-03-015 | A team cannot be created without workers | Continue without selecting any worker | Continue is blocked with a message, because each team needs at least one worker  | High | ⬜⬜⬜⬜ |
 
 ## SC-IT-03.5 Step 4: Working area
 
@@ -96,7 +96,7 @@ Verify team creation (5-step flow), editing, and removal of teams and team membe
 | TC-IT-03-030 | "Remove" shows a confirmation message | 1. Click "Remove" | Message: Are you sure you want to remove `<name>` worker? | High | ⬜⬜⬜⬜ |
 | TC-IT-03-031 | "Yes" and "No" buttons are available in the dialog | 1. Check the dialog | Both buttons are present | Med | ⬜⬜⬜⬜ |
 | TC-IT-03-032 | "Yes" removes the member | 1. Click "Yes" | Member no longer appears in the team | High | ⬜⬜⬜⬜ |
-| TC-IT-03-033 | *(added)* "No" keeps the member | 1. Click "No" | Dialog closes and the member remains | Med | ⬜⬜⬜⬜ |
+| TC-IT-03-033 |  "No" keeps the member | 1. Click "No" | Dialog closes and the member remains | Med | ⬜⬜⬜⬜ |
 | TC-IT-03-034 | A removed member cannot be recovered | 1. Remove a member<br>2. Refresh the page | Member is still gone | Med | ⬜⬜⬜⬜ |
 
 ## SC-IT-03.8 Edit and remove teams

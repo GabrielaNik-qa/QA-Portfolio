@@ -70,7 +70,7 @@ Verify that a Client can navigate the Dashboard, create a task through the 4-ste
 
 | ID | Test Case | Steps / Test Data | Expected Result | Pri | Ch · FF · Ed · Mob |
 |----|-----------|-------------------|-----------------|-----|:------------------:|
-| TC-CL-02-017 | Calendar allows date selection | 1. Select today's date<br>2. Select a future date | Both dates are selectable. Past dates are not selectable *(confirm in the story, open question 3)* | High | ⬜⬜⬜⬜ |
+| TC-CL-02-017 | Calendar allows date selection | 1. Select today's date<br>2. Select a future date | Both dates are selectable. Past dates are not selectable  | High | ⬜⬜⬜⬜ |
 | TC-CL-02-018 | All 8 time range slots are selectable and required after choosing a date | Test each: 8-10AM, 10AM-12PM, 12-2PM, 2-4PM, 4-6PM, 6-8PM, 8-10PM, 10PM-12AM | Every slot is selectable. Continue is not possible without a slot | High | ⬜⬜⬜⬜ |
 | TC-CL-02-019 | Address field and Map button are available and the map loads | 1. Check the Address field<br>2. Click the Map button | Address field is present. Map loads correctly | Med | ⬜⬜⬜⬜ |
 | TC-CL-02-020 | Zip/Postal code field is available | 1. Check the Step 3 form | Field is present and accepts input | Med | ⬜⬜⬜⬜ |

@@ -31,8 +31,8 @@ Verify that an Admin can create events in a group with all their options, and ma
 |----|-----------|-------------------|-----------------|-----|:------------------:|
 | TC-NB-03-001 | The "Events" tab shows all created events | 1. Open the Events tab | All events of the group are listed | High | ⬜⬜⬜⬜ |
 | TC-NB-03-002 | The "Create an event" field is clickable and opens the Add event popup | 1. Click anywhere in the field | The popup opens | High | ⬜⬜⬜⬜ |
-| TC-NB-03-003 | The Add event popup has all fields | 1. Open the popup | Event name, Description, Date (calendar), Hour, Event URL, Location (map and search), Photo, Private Event, Hidden Event, Pin Event | High | ⬜⬜⬜⬜ |
-| TC-NB-03-004 | Event name is mandatory | 1. Leave the name empty<br>2. Click "Create" | ⚠️ The document does not say which fields are mandatory (open question 11). Expected until confirmed: the event is not created | Med | ⬜⬜⬜⬜ |
+| TC-NB-03-003 | The Add event popup has all fields | 1. Open the popup | Event name, Description, Date (calendar), Hour, Event URL, Location, Photo, Private Event, Hidden Event, Pin Event | High | ⬜⬜⬜⬜ |
+| TC-NB-03-004 | Event name is mandatory | 1. Leave the name empty<br>2. Click "Create" |  the event is not created | Med | ⬜⬜⬜⬜ |
 | TC-NB-03-005 | The Date field opens a calendar | 1. Click the Date field | A calendar opens and a date can be selected | High | ⬜⬜⬜⬜ |
 | TC-NB-03-006 | The Hour field accepts a time | Enter `14:00` | The time is accepted | Med | ⬜⬜⬜⬜ |
 | TC-NB-03-007 | Event URL allows adding several URLs with "+" | 1. Add 2 URLs | Both are listed | Low | ⬜⬜⬜⬜ |

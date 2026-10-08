@@ -32,5 +32,3 @@ Verify that a Client can use the chat with iTaskers, with the correct restrictio
 | TC-CL-06-003 | "New Chat" allows selecting participants | 1. Click "New Chat"<br>2. Select an iTasker | Participant selection works and a chat can be started | Med | ⬜⬜⬜⬜ |
 | TC-CL-06-004 | "New Chat" does not allow a chat with an iTasker the Client has not worked with | 1. Click "New Chat"<br>2. Look for an iTasker with no shared task | That iTasker cannot be selected or is not listed | High | ⬜⬜⬜⬜ |
 | TC-CL-06-005 | Chat view options in the dropdown menu | 1. Click the box icon<br>2. Check the menu<br>3. Select: only Private; Private + Group; all; none | Menu shows "New Chat" and the options Private, Group and Closed Chats. The list matches each selection | Med | ⬜⬜⬜⬜ |
-
-> The "Log out" case from the chat section of the source sheet is the same as [TC-CL-01-020](./TS-CL-01-Registration-Authentication.md), so the two are merged.

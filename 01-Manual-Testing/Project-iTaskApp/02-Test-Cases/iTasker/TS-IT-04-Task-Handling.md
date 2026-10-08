@@ -38,7 +38,7 @@ Verify that an iTasker can find and apply for tasks, assign them to a team, chan
 | TC-IT-04-006 | Task Details has all visual elements from the user story | 1. Compare the window with the story | Elements match | Med | ⬜⬜⬜⬜ |
 | TC-IT-04-007 | iTasker can change the day and hour when applying | 1. Select another day and time slot | New values are accepted | High | ⬜⬜⬜⬜ |
 | TC-IT-04-008 | Calendar works for present and future dates | Select today, then a future date | Both are selectable. Past dates are not *(confirm in the story, open question 3)* | High | ⬜⬜⬜⬜ |
-| TC-IT-04-009 | Applying without accepting the Terms and Conditions | 1. Leave Terms unchecked<br>2. Apply | ⚠️ The story is silent (open question 5). Expected until confirmed: application is blocked with a message | High | ⬜⬜⬜⬜ |
+| TC-IT-04-009 | Applying without accepting the Terms and Conditions | 1. Leave Terms unchecked<br>2. Apply | application is blocked with a message | High | ⬜⬜⬜⬜ |
 | TC-IT-04-010 | iTasker is notified of a successful application after clicking "Yes" | 1. Confirm the application | A message confirms the application was successful. This is the last step of applying | High | ⬜⬜⬜⬜ |
 
 ## SC-IT-04.2 Assign a task to own team
